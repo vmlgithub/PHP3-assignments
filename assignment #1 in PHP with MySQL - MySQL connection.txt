@@ -1,0 +1,30 @@
+Warning: mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password]
+
+Solution: created a new user account with Standard Authentication Type
+
+============================================
+
+Warning: mysqli::__construct(): (HY000/1049): Unknown database 'sakila.sql'
+
+Solution: removed the .sql
+
+============================================
+
+Warning: mysqli::__construct(): (HY000/1044): Access denied for user 'louienew'@'localhost' to database 'sakila'
+
+Solution: granted the administrative roles for the user account that I have recently added
+
+
+============================================
+
+Warning: mysqli::__construct(): (HY000/1045): Access denied for user 'trynapudusertas%anghost'@'localhost' (using password: NO) 
+
+Solution: there was no password written, so I put the correct password in the PHP code
+
+=============================================
+
+Warning: mysqli::__construct(): (HY000/1045): Access denied for user 'trynapudusertas%anghost'@'localhost' (using password: YES) in C:\MAMP\htdocs\Louie\php3\mysql\assignment-1-php-mysql.php on line 8
+
+Solution: the password was wrong so I put the correct password in the PHP code
+
+==============================================
