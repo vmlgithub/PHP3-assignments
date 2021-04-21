@@ -1,3 +1,8 @@
+Assignment: MySQL Connection
+Play around with the connection credentials and produce as many "MySQL connection" errors as possible. Make sure you copy and paste those errors in a .txt file. Determine their error numbers as well and tell us how to fix it.
+
+
+===========================================
 Warning: mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password]
 
 Solution: created a new user account with Standard Authentication Type
